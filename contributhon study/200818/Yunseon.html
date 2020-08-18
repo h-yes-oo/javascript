@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>스크립트 전</p>
+
+  <script>
+    var data = 10;
+    function outer(){ 
+        function inner(){
+            this.data = 20;
+            data = 30;
+            console.log("1. data= " + data);
+            console.log("2. this.data = " + this.data);
+            console.log("3. window.data = " + window.data);
+        }
+        inner();
+    }
+    outer();
+  </script>
+
+  <p>스크립트 후</p>
+
+</body>
+
+</html>

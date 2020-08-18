@@ -1,0 +1,27 @@
+// 1.John , Sandy
+
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>스크립트 전</p>
+
+  <script>
+    function addCalcul(sum) {
+        let num = +prompt("숫자 혹은 '취소'를 입력하세요",0);
+        if ( typeof num != 'number') {
+          alert(sum)
+        } else {
+          sum += num;
+          addCalcul(sum);
+        }
+    }
+    addCalcul(0);
+  </script>
+
+  <p>스크립트 후</p>
+
+</body>
+
+</html>

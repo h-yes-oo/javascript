@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>스크립트 전</p>
+
+    <script type="text/javascript">
+        let remoteControl = {
+
+            currentCh() {
+                this.a = +prompt('기본 채널을 선택하세요:', 1);
+                if(this.a  <= 0){
+                    this.currentCh();
+                    return;
+                    //this.a = +prompt('기본 채널을 다시 선택하세요:', 1);
+                }
+                let result = confirm("채널을 올릴까요?");
+                (result == true) ? remoteControl.chUp() : remoteControl.chDown();
+            },
+
+            chUp() {
+                if(this.a <= 0){
+                    alert("현재채널은 1입니다")
+                }else{
+                    alert("현재채널은"+(this.a+1)+"입니다")
+                }
+            },
+        
+            chDown() {
+                if(this.a <= 0){
+                    alert("현재채널은 1입니다")
+                }else{
+                    alert("현재채널은"+(this.a-1)+"입니다")
+                }
+            },
+        };
+
+        remoteControl.currentCh();
+    </script>
+
+  <p>스크립트 후</p>
+
+</body>
+
+</html>
