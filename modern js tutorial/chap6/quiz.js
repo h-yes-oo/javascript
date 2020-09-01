@@ -4,7 +4,7 @@ let ex3 = '6*(2+(4/2-1)'; //false
 let ex4 = '(3+4)/7*6+((2-3)*2)'; //true
 
 function is_pair(s){
-    let stack =0;
+    let stack = 0;
     for(let i = 0; i < s.length; i++){
         if(s[i] == '(') {
             stack++;
