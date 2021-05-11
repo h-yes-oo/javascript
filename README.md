@@ -5,3 +5,4 @@
 - [x] 2020 컨트리뷰톤 스터디
 - [x] 이지스퍼블리싱 *자바스크립트 + 제이쿼리 입문* 책
 - [x] 생활코딩 [JavaScript Immutability](https://opentutorials.org/module/4075)
+- [ ] [자바스크립트 40년 경력 김영보 선생님의 인프런 강좌](https://www.inflearn.com/users/@tonextday)
