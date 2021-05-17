@@ -8,3 +8,5 @@ console.log(book);
 var varName = "content";
 book[varName] = "new content";
 console.log(book)
+
+console.log(book["hihi"]);
