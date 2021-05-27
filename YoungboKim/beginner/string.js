@@ -13,3 +13,6 @@ console.log(obj.valueOf());
 var value = "ABC";
 for(var i = 0; i < value.length; i++)
 	console.log(value[i]);
+
+var long = "  hi hihi  hello    ";
+console.log(long.trim().length);
