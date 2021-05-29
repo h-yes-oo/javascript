@@ -41,3 +41,9 @@ var value = "123123";
 console.log(value.lastIndexOf(123));
 console.log(value.lastIndexOf(123,2));
 console.log(value.lastIndexOf(4));
+
+var first = new String("hihi");
+console.log(typeof first);
+var second = first.concat(" nice to meet", " you");
+console.log(typeof second);
+console.log(second);
