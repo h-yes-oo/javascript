@@ -47,3 +47,12 @@ console.log(typeof first);
 var second = first.concat(" nice to meet", " you");
 console.log(typeof second);
 console.log(second);
+
+var value = "abcabc";
+console.log(value.replace("a", "b"));
+console.log(value.replace(/a/g,"b"));
+
+function hihi() {
+  return "hihi";
+}
+console.log(value.replace(/a/g, hihi));
