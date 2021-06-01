@@ -56,3 +56,6 @@ function hihi() {
   return "hihi";
 }
 console.log(value.replace(/a/g, hihi));
+
+
+console.log(String.fromCharCode(49,65,97,44032)); //1Aa가
