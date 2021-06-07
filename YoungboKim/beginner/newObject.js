@@ -12,3 +12,10 @@ console.log(obj);
 
 var obj = {name: "value"}
 console.log(obj instanceof Object); //true
+
+console.log(Object.create);
+console.log(Object.prototype.toString);
+var instance = {};
+console.log(instance.toString);
+console.log(String.fromCharCode(49, 65));
+console.log(123..toString());
