@@ -15,3 +15,6 @@ console.log(obj.propertyIsEnumerable("sports"));
 for(var name in obj){
   console.log(name);
 }
+
+var numObj = new Number(123);
+console.log(Object.prototype.isPrototypeOf(numObj)); 
