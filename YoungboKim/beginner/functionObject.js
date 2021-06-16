@@ -17,3 +17,19 @@ function add(one, two) {
 
 console.log(add(1));
 console.log(add.length);
+
+var getBook = function(title){
+  return title;
+};
+var result = getBook('hihi');
+console.log(result);
+
+var someFtn = function inside(value){
+  if (value === 102){
+    return value;
+  };
+  console.log(value);
+  return inside(value + 1);
+};
+
+someFtn(99);
