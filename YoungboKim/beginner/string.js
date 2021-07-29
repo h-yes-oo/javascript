@@ -16,3 +16,12 @@ for(var i = 0; i < value.length; i++)
 
 var long = "  hi hihi  hello    ";
 console.log(long.trim().length);
+
+var num = 123;
+console.log(typeof num);
+var result = num.toString();
+console.log(typeof result);
+
+var instance = new String("123");
+var oneProto = instance.__proto__;
+console.log(oneProto);
